@@ -7,7 +7,7 @@
 //   - インクリメントを繰り返し変数numの値が100以上になったらWhileループを抜ける
 //     - デベロッパーツールのConsole上に0~99までの値が出力されたら正解
 let num = 0;
-while(num<100){
+while (num < 100) {
     console.log(num);
     num++;
 }
@@ -30,12 +30,13 @@ while(num<100){
 
 const question = "パンはパンでも食べられないパンは？";
 const answer = "フライパン";
-let input ;
+let input;
 
-while(input !== answer){
+while (input !== answer) {
     input = prompt(question);
-    if(input === answer){
+    if (input === answer) {
         window.alert("正解です！");
-    }else
+    } else {
         window.alert("不正解です！");
+    }
 }
